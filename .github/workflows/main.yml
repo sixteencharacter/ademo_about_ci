@@ -19,4 +19,4 @@ jobs:
       - name: install dependencies
         run: npm ci
       - name: Run Vitest
-        run: npm vitest run
+        run: npx vitest run
